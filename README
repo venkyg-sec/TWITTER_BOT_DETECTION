@@ -1,0 +1,33 @@
+USAGE OF THE TOOL :
+
+1. To Monitor self account
+	python botnot.py "self"
+
+2. To Monitor follower's list in current user's account
+	python botnot.py "bot"
+
+Libraries required:
+1. Tweepy :
+	pip install tweepy
+	  (or)
+	git clone https://github.com/tweepy/tweepy.git
+	cd tweepy
+	python setup.py install
+
+Python 2.6 and 2.7, 3.3, 3.4 & 3.5 are supported.
+
+2. Google's Safe Browsing API
+	The user needs to create an API key at google's safe browsing API and have it activated.
+
+3. tldextractor 
+	pip install tldextract
+
+	The user needs to install tldextract for fetching the list of top level domains. This assists the tools in extracting url's from a link.
+
+4. Truthy Project API
+	pip install botornot
+
+
+The statistics for the user are written to  "user_screen_name".csv file
+
+
